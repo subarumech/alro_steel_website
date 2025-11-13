@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Shop metals and plastics online at Alro Steel. Browse our extensive inventory of metals, plastics, and processing services.">
+    <title>Online Store - Alro Steel</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/store.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-top">
+                <div class="logo">
+                    <a href="/">ALRO</a>
+                </div>
+                <div class="header-actions">
+                    <a href="tel:888-888-2576" class="phone-link">888-888-2576</a>
+                    <button class="search-toggle" aria-label="Search" id="searchToggle">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M19 19L13 13M15 8C15 11.866 11.866 15 8 15C4.13401 15 1 11.866 1 8C1 4.13401 4.13401 1 8 1C11.866 1 15 4.13401 15 8Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                    <button class="menu-toggle" aria-label="Toggle menu" id="menuToggle">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+            <nav class="nav" id="mainNav">
+                <ul class="nav-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="store.html" class="active">Online Store</a></li>
+                    <li><a href="index.html#metals">Metals</a></li>
+                    <li><a href="index.html#plastics">Plastics</a></li>
+                    <li><a href="index.html#retail-outlets">Retail Outlets</a></li>
+                    <li><a href="index.html#processing">Processing</a></li>
+                    <li><a href="index.html#locations">Locations</a></li>
+                    <li><a href="index.html#news">News</a></li>
+                    <li><a href="index.html#about">About Us</a></li>
+                    <li><a href="https://careers.alro.com/career-home/" target="_blank">Careers</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="search-overlay" id="searchOverlay">
+        <div class="search-container">
+            <form class="search-form" id="searchForm">
+                <input type="search" placeholder="Search products..." class="search-input" id="searchInput">
+                <button type="submit" class="search-submit">Search</button>
+            </form>
+            <button class="search-close" id="searchClose">&times;</button>
+        </div>
+    </div>
+
+    <main>
+        <section class="store-hero">
+            <div class="container">
+                <div class="store-hero-content">
+                    <h1 class="store-hero-title">Alro Online Store</h1>
+                    <p class="store-hero-subtitle">Shop 24/7 for metals, plastics, and processing services</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="store-categories">
+            <div class="container">
+                <h2 class="section-title">Shop by Category</h2>
+                <div class="categories-grid">
+                    <a href="#metals" class="category-card">
+                        <div class="category-icon">⚙️</div>
+                        <h3>Metals</h3>
+                        <p>Aluminum, Steel, Stainless Steel, Brass, Copper, and more</p>
+                        <span class="category-link">Browse Metals →</span>
+                    </a>
+                    <a href="#plastics" class="category-card">
+                        <div class="category-icon">🔷</div>
+                        <h3>Plastics</h3>
+                        <p>Acrylic, Polycarbonate, Nylon, PTFE, and more</p>
+                        <span class="category-link">Browse Plastics →</span>
+                    </a>
+                    <a href="#processing" class="category-card">
+                        <div class="category-icon">✂️</div>
+                        <h3>Processing Services</h3>
+                        <p>Cut to size, laser cutting, waterjet, and more</p>
+                        <span class="category-link">View Services →</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="featured-products" id="metals">
+            <div class="container">
+                <h2 class="section-title">Metals Products</h2>
+                <div class="products-grid">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="images/aluminum-stock.jpg" alt="Aluminum metal sheets and bars" onerror="this.onerror=null; this.src='images/Box-HOME-Metal-Prod.jpg';">
+                        </div>
+                        <div class="product-info">
+                            <h3>Aluminum</h3>
+                            <p>Sheets, plates, bars, and extrusions</p>
+                            <a href="#" class="product-link">View Products →</a>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="images/stainless steel stock image.jpg" alt="Stainless steel metal" onerror="this.onerror=null; this.src='images/Box-HOME-Metal-Prod.jpg';">
+                        </div>
+                        <div class="product-info">
+                            <h3>Stainless Steel</h3>
+                            <p>Sheets, plates, bars, and tubes</p>
+                            <a href="#" class="product-link">View Products →</a>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="images/carbon steel stock image.jpg" alt="Carbon steel metal" onerror="this.onerror=null; this.src='images/Box-HOME-Metal-Prod.jpg';">
+                        </div>
+                        <div class="product-info">
+                            <h3>Carbon Steel</h3>
+                            <p>Bars, plates, sheets, and structurals</p>
+                            <a href="#" class="product-link">View Products →</a>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="images/brass stock image.jpg" alt="Brass metal" onerror="this.onerror=null; this.src='images/Box-HOME-Metal-Prod.jpg';">
+                        </div>
+                        <div class="product-info">
+                            <h3>Brass</h3>
+                            <p>Sheets, bars, and rods</p>
+                            <a href="#" class="product-link">View Products →</a>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="images/copper stock image.jpg" alt="Copper metal" onerror="this.onerror=null; this.src='images/Box-HOME-Metal-Prod.jpg';">
+                        </div>
+                        <div class="product-info">
+                            <h3>Copper</h3>
+                            <p>Sheets, bars, and tubes</p>
+                            <a href="#" class="product-link">View Products →</a>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="images/tool steel stock image.jpg" alt="Tool steel metal" onerror="this.onerror=null; this.src='images/Box-HOME-Metal-Prod.jpg';">
+                        </div>
+                        <div class="product-info">
+                            <h3>Tool Steel</h3>
+                            <p>Bars and plates for tooling applications</p>
+                            <a href="#" class="product-link">View Products →</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="featured-products" id="plastics">
+            <div class="container">
+                <h2 class="section-title">Plastics Products</h2>
+                <div class="products-grid">
+                    <div class="product-card">
+                        <div class="product-image-placeholder">
+                            <span>Acrylic</span>
+                        </div>
+                        <div class="product-info">
+                            <h3>Acrylic</h3>
+                            <p>Sheets and rods in various colors</p>
+                            <a href="#" class="product-link">View Products →</a>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image-placeholder">
+                            <span>Polycarbonate</span>
+                        </div>
+                        <div class="product-info">
+                            <h3>Polycarbonate</h3>
+                            <p>Impact-resistant sheets and rods</p>
+                            <a href="#" class="product-link">View Products →</a>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image-placeholder">
+                            <span>Nylon</span>
+                        </div>
+                        <div class="product-info">
+                            <h3>Nylon</h3>
+                            <p>Sheets, rods, and tubes</p>
+                            <a href="#" class="product-link">View Products →</a>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image-placeholder">
+                            <span>PTFE</span>
+                        </div>
+                        <div class="product-info">
+                            <h3>PTFE</h3>
+                            <p>Teflon sheets, rods, and tubes</p>
+                            <a href="#" class="product-link">View Products →</a>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image-placeholder">
+                            <span>UHMW-PE</span>
+                        </div>
+                        <div class="product-info">
+                            <h3>UHMW-PE</h3>
+                            <p>Ultra-high molecular weight polyethylene</p>
+                            <a href="#" class="product-link">View Products →</a>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image-placeholder">
+                            <span>Medical Grades</span>
+                        </div>
+                        <div class="product-info">
+                            <h3>Medical Grades</h3>
+                            <p>FDA-approved materials for medical use</p>
+                            <a href="#" class="product-link">View Products →</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="store-features">
+            <div class="container">
+                <h2 class="section-title">Why Shop with Alro?</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">🚚</div>
+                        <h3>Fast Delivery</h3>
+                        <p>Next-day delivery available on cut-to-size orders</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">📦</div>
+                        <h3>Unmatched Inventory</h3>
+                        <p>Largest selection of metals and plastics in the industry</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">✂️</div>
+                        <h3>Cut to Size</h3>
+                        <p>Custom cutting and processing services available</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">💳</div>
+                        <h3>Easy Ordering</h3>
+                        <p>Shop 24/7 online with secure checkout</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="store-cta">
+            <div class="container">
+                <div class="cta-content">
+                    <h2>Ready to Get Started?</h2>
+                    <p>Browse our full catalog or contact us for custom orders</p>
+                    <div class="cta-buttons">
+                        <a href="https://www.myalro.com/" class="btn btn-primary" target="_blank">Visit MyAlro.com</a>
+                        <a href="tel:888-888-2576" class="btn btn-secondary">Call 888-888-2576</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>Phone: <a href="tel:888-888-2576">888-888-2576</a></p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="store.html">Online Store</a></li>
+                        <li><a href="index.html#metals">Metals</a></li>
+                        <li><a href="index.html#plastics">Plastics</a></li>
+                        <li><a href="index.html#processing">Processing</a></li>
+                        <li><a href="index.html#locations">Locations</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="index.html#about">About Us</a></li>
+                        <li><a href="https://careers.alro.com/career-home/" target="_blank">Careers</a></li>
+                        <li><a href="index.html#news">News</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook" target="_blank">
+                            <img src="images/Icon_sm_Facebook.png" alt="Facebook">
+                        </a>
+                        <a href="#" aria-label="LinkedIn" target="_blank">
+                            <img src="images/Icon_sm_LinkedIn.png" alt="LinkedIn">
+                        </a>
+                        <a href="#" aria-label="Twitter" target="_blank">
+                            <img src="images/icon_sm_Twitter.png" alt="Twitter">
+                        </a>
+                        <a href="#" aria-label="Instagram" target="_blank">
+                            <img src="images/icon_sm_Instagram.png" alt="Instagram">
+                        </a>
+                        <a href="#" aria-label="YouTube" target="_blank">
+                            <img src="images/icon_sm_YouTube.png" alt="YouTube">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Alro Steel. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/store.js"></script>
+</body>
+</html>
+
